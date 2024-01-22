@@ -1,0 +1,42 @@
+body{
+    background-image: url(bg.jpg);
+}
+div{
+    text-align: center;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#textbox{
+margin-top: auto;
+display: block;
+width: 70%;
+height: 23.375rem;
+margin: auto;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+margin-top: 2%;
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    font-size: 30px;
+    margin: auto;
+    background: linear-gradient(to right, #ff69b4, #800080); /* Pink to Purple gradient */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover{
+    background: linear-gradient(to right, #800080, #ff69b4);
+}
+p{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
